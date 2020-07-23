@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Header from './Header';
 
+
 function App() {
   return (
     <Router>
@@ -35,6 +36,3 @@ function App() {
 
 export default App;
 
-      {/* localhost.com/ */}
-      {/* localhost.com/electric */}
-      {/* localhost.com/gas */}

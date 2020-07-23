@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import SearchIcon from '@material-ui/icons/Search';
 import ContactSupportIcon from '@material-ui/icons/ContactSupport';
 
+
 function Header() {
     return (
         <nav className="header">
@@ -36,7 +37,6 @@ function Header() {
                     <span className="header__optionLineTwo">Utility Companies</span>
                 </div>
                 </Link>
-
                 </div>
            
 
