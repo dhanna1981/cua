@@ -1,30 +1,15 @@
-.home {
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 100px;
-    position: relative;
-    left: 50px;
-}
-
-.homeimg {
-    display: flex;
-    position: relative;
-    bottom: 150px;
-    flex: 1;
-    margin-left: 1000px;
-    padding-bottom: 50px;
-    border-radius: 100px;
-}
-
-.homeimage {
-    height: 250px;
-    width: 300px;
-    border-radius: 100px;
-}
-
 .homeSection {
     background-color: #FEE140;
     background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
 }
 
+.homeImage {
+    display: block;
+    border-radius: 100%;
+    width: 25%;
+    height: auto;
+    position: sticky;
+    margin-left: auto;
+    margin-right: 400px;
+    margin-top: -250px;
+}

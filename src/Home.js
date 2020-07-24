@@ -1,20 +1,20 @@
 import React from 'react'
 import './Home.css';
-import Search from './Search'
 import electric from './electric.png';
+import Search from './Search';
 
 function Home() {
     return (
-        <div className="homeSection">
-            <Search />
-        <div className="home">
-        <div className="homeimg">
-        <img className="homeimage" src={electric} alt='electric' />
-        </div>
-        </div>
 
-        </div>
-    )
+        <div className='homeSection'>
+            <div className='searchBox'>
+            <Search />
+            <div>
+             <img className='homeImage' src={electric} alt="electric" />;
+             </div>
+          </div>
+          </div>
+   )
 }
 
 export default Home
