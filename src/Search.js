@@ -27,7 +27,7 @@ const ActionButton = styled.button`
 
 const Card = (props) => (
   <div className='entireCard'>
-  <div style={{ color: '#fff' }} className='searchCard'>
+  <div style={{ color: '#fff' }} className='searchCard f4 tc fw9'>
     <Title>Choosing a Supplier has never been Easier!</Title>
     <Description>
       Let us help you make the right choice for your electric supply needs.  
@@ -36,7 +36,6 @@ const Card = (props) => (
     <ActionButton className='cardButton'>Search by Zip Code</ActionButton>
     </div>
     </div>
-    
-)
+);
 
 export default Card

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import electric from './electric.png';
+import electric from './electric.jpg';
 import Search from './Search';
 
 function Home() {

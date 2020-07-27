@@ -13,7 +13,7 @@ import Home from './Home'
 
 function App() {
   return (
-    <Router>
+       <Router>
       <div className="app">
         <Switch>
           <Route path="/electric">
